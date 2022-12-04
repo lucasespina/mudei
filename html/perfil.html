@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/stylefe.css">
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -17,66 +17,69 @@
 
     <body>
 
-        <header id="huser">
-            <button onclick="history.back()"><img src="../svg/back.svg"></button>
-            <a href="#"><img src="../svg/I.svg" width=100%></a>
+        <header class="perfil_info" id="huser">
+            <button class="back_botao" onclick="history.back()"><img src="../svg/back.svg"></button>
+            <a href="#"><img src="../svg/predio.svg" width=100%></a>
         </header>
 
-        <main>
+        <main class="main_perfil" >
             <div id="cent-user">
                 <img src="../svg/user.svg" width=23%>
-                <h1>
+
+                <h1 class="user_info">
                     Nome
                 </h1>
-                <h2 id="edp">
+
+                <h2 class ="editar_perfil" id="edp">
                     Editar Perfil
                     <a href="#"><img src="../svg/edit.svg" width=65%></a>
                 </h2>
                 
             </div>
 
-            <div id="res-test">
-                <div class="coluna">
-                    <a class="coluna">
+            <div class="informacao_teste">
+                <div class="coluna_perfil">
+                    <a class="coluna_perfil">
                         <img src="../svg/ocup.svg" width=30%>
                         <h2>Ocupação</h2>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
                     </a>
-                    <a class="coluna">
-                        <img class='imagem' src="../svg/hobbies.svg" width=30%>
+                    <a class="coluna_perfil">
+                        <img class='icones_perfil' src="../svg/hobbies.svg" width=30%>
                         <h2>Hobbies</h2>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
                     </a>
                 </div>
-                <div class="coluna">
-                    <a class="coluna">
+                <div class="coluna_perfil">
+                    <a class="coluna_perfil">
                         <img src="../svg/essen.svg" width=30%>
                         <h2>Essenciais</h2>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
                     </a>
-                    <a class="coluna">
-                        <img class='imagem' src="../svg/pref.svg" width=30%>
+                    <a class="coluna_perfil">
+
+                        <img class='icones_perfil' src="../svg/pref.svg" width=30%>
                         <h2>Preferências</h2>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
                         <p>Lorem Ipsum</p>
+
                     </a>
                 </div>
             </div>
 
         </main>
 
-        <footer id="fuser">
-            <p>Refaça Seu Teste Aqui:</p>
-            <a href="#"><img src="../svg/test.svg" width=150%></a>
-            
+        <footer class="refazer_teste">
 
+            <p class="refazer_texto">Refaça Seu Teste Aqui:</p>
+            <a href="#"><img src="../svg/test.svg" width=150%></a>
 
         </footer>
 

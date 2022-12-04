@@ -1,0 +1,504 @@
+.logo_entrada {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.cor_de_fundo_entrada{
+    background-color:white
+}
+
+.entrar {
+    font-size: 250%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 4%;
+    width: 50%;
+    margin: 0% auto 0 auto;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #B3E0F2;
+    scale: 80%;
+}
+
+.imagem_caracteriscas{
+    border: 2px solid black;
+    border-radius:50%;
+}
+
+.preço{
+    display: flex;
+    justify-content: left;
+    margin-left: 0.5%;
+    border-radius: 40%;
+    font-family: 'Arvo', serif;
+}
+
+.linha_anuncio{
+    position: relative;
+    width: 100%;
+    height:2px;
+    background-color: #B3E0F2;
+    border: 1px solid black;
+}
+
+
+
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
+
+
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+}
+.p_index {
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+    scale: 75%;
+    font-size: 100%;
+}
+
+.titulo_mudei {
+    font-size: 400%;
+    border-bottom: 1px solid black;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #B3E0F2;
+    color: #1C4E59;
+    
+}
+
+.recomendados {
+    font-size: 150%;
+    display: flex;
+    justify-content: left;
+    padding-left: 5%;
+    margin-top: 5%;
+    font-family: "Arvo", serif;
+}
+
+.inicial_circle{
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    margin-top: 5%;
+    font-family: "Arvo", serif;
+}
+
+.imagem_recomendado {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    scale: 90%;
+}
+
+.buscar_imagem{
+    justify-content: center;
+    display: flex;
+    margin-top:5%;
+    padding-left: 5%;
+    scale: 100%
+}
+
+.shortcuts {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #41bdd9;
+    border-top: 1px solid black;
+    width: 100%;
+}
+
+.back {
+    display: flex;
+    left: 0;
+
+}
+
+.entrada {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 1000%;
+    font-family: 'Lato', sans-serif;
+}
+
+.buscar_entrada {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+
+}
+
+.texto_entrada {
+    display: flex;
+    justify-content: center;
+    width: 80%;	
+    height: 100%;
+    background-color: #EDEDED;
+    border-radius: 25px;
+    scale: 110%;
+    font-family: "Arvo", serif;
+}
+
+/* Buscar CSS*/
+
+.texto_buscar{
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    text-align: center;
+    font-family: 'Arvo', serif;}
+
+.entrada_texto{
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-bottom: 10%;
+        text-align: center;
+        font-family: 'Arvo', serif;
+        scale: 100%;
+    
+    }
+
+.entrada_texto_posicao { 
+
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 100%;
+    font-family: 'Arvo', serif;
+}
+
+.botao_buscar {
+    display: flex;
+    justify-content: center;
+    border-radius: 40%;
+}
+
+/* lista css */
+
+.linha_lista{
+    
+    position: relative;
+    top: -2rem;
+    width: 100%;
+    height:2px;
+    background-color: #B3E0F2;
+    z-index: -1000;
+    border: 1px solid #B3E0F2;
+
+}
+
+.topicos_lista {
+    border-top: #000 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+
+}
+
+.anuncio_selecionado_lista{
+    margin-top: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid #000;
+    font-size: 120%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+    color: #000;
+}
+
+.menu_opcoes {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Anuncio CSS */
+
+.imagem_anuncio {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    border-radius: 40%;
+    margin-top: 10%;
+
+}
+
+.caracteristicas_posicao{
+    margin: 1%;	
+}
+
+.descricao_anuncio {
+    font-family: 'Arvo', serif;
+    margin-top: 5%;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+.descricao_anuncio_texto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    border-radius: 40%;
+    font-family: 'Arvo', serif;
+    margin-bottom: 3%;	
+    text-align:center;
+}
+
+.buscar_botao_posicao{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+}
+
+.buscar_botao_texto{
+    border-radius: 5%;
+    font-size: 120%;
+    font-family: 'Arvo', serif;
+}
+
+/* Perfil CSS*/
+
+.user_info{
+    font-size: 200%;
+}
+
+.editar_perfil {
+    font-weight: bold;
+}
+
+.perfil_info {
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #1C4E59;
+}
+
+.main_perfil {
+
+    display: flex;
+    flex-direction: column;
+    border-top: 0.10rem solid black;
+    padding: 3%;
+    
+}
+
+.coluna_perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icones_perfil {
+        display: flex;
+        padding-top: 50%;
+}
+
+.refazer_test {
+
+    display: flex;
+    font-size: 170%;
+
+}
+
+.informacao_teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.refazer_teste {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #41bdd9;
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 0.10rem solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+.refazer_texto {
+    display: flex;
+    justify-content: center;
+    font-size: 120%;
+    font-family: 'Arvo', serif;
+}
+
+.back_botao {
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;        
+}
+
+
+#edp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#huser{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cent-user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Amigos css */
+
+.buscar_amigos{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.buscar_amigos_texto{
+    display: flex;
+    justify-content: center;
+    width: 80%;	
+    height: 100%;
+    background-color: #EDEDED;
+    border-radius: 25px;
+    scale: 110%;
+    font-family: 'Arvo', serif;
+
+}
+
+.info_amigos{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 20%;
+}
+
+.sugestao_amigos_texto{
+
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.nome_amigos_texto{
+
+    display: flex;
+    font-weight: bold;
+    font-size: 90%;
+
+}
+
+/* Configuracoes CSS */
+
+.list_config {
+
+    border-top: #000 1px solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: stretch;
+    margin-top: 7%;
+}
+
+.opc_config{
+
+    margin-top: 0;
+    padding: 1.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    font-size: 200%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arvo', serif;
+}
+
