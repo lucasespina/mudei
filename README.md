@@ -1,4 +1,4 @@
-# codesign - Mudei 
+# Codesign - Mudei 
 
 by: Lucas Espina, Lucca Nasser, Melina Stergiou, Felipe Maia
 
