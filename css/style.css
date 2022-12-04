@@ -11,6 +11,8 @@
     background-color:white
 }
 
+
+
 .entrar {
     font-size: 250%;
     display: flex;
@@ -86,6 +88,8 @@ a:link {
     font-family: 'Arvo', serif;
     scale: 75%;
     font-size: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .titulo_mudei {
