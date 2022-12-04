@@ -1,0 +1,178 @@
+.caixamel { display: flex;
+    height: 20%;
+    justify-content: center;
+    justify-items: center;
+    width: 80%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 100%;
+    font-family: 'Arvo', serif;
+}
+
+.listamel1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+ 
+.txtmel4{font-size: 120%;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    text-align: center;
+    font-family: 'Arvo', serif;}
+
+.caixamel2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 10%;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    scale: 100%;
+
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #41bdd9;
+    border-top: 1px solid black;
+}
+
+
+.pe {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.header {
+    font-size: 400%;
+    border-bottom: 1px solid black;
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #B3E0F2;
+    color: #1C4E59;
+}
+
+
+.main {display: flex;
+    flex-direction: column;
+
+}
+
+.botaomel {
+    display: flex;
+    justify-content: center;
+
+    border-radius: 40%;
+}
+
+.menumel {
+    display: flex;
+    margin-top: 3%;
+
+}
+
+.quadradao {
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+    border-radius: 40%;
+
+}
+
+
+.bolinhas{
+    margin: 1%;	
+}
+
+.geralm2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    border-radius: 40%;
+    font-family: 'Arvo', serif;
+    margin-bottom: 3%;	
+    text-align:center;
+}
+
+.desc{
+    font-family: 'Arvo', serif;
+    margin-top: 5%;
+    margin-left: 1%;
+    font-weight: bold;
+}
+
+
+.preço{
+    display: flex;
+    justify-content: left;
+    margin-left: 0.5%;
+    border-radius: 40%;
+    font-family: 'Arvo', serif;
+}
+
+hr{
+    position: relative;
+    width: 100%;
+    height:2px;
+    background-color: #B3E0F2;
+    border: 1px solid black;
+}
+
+.img20{
+    border: 2px solid black;
+    border-radius:50%;
+}
+
+
+
+
+
+
+.img40{
+    margin-top: 10%;
+}
+
+.alw{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10rem;
+}
+
+.button2{
+    border-radius: 5%;
+    font-size: 120%;
+    font-family: 'Arvo', serif;
+}
+
+a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: black;
+  }
+  
+  /* selected link */
+  a:active {
+    color: black;
+  }
